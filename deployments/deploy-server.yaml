@@ -16,7 +16,7 @@ spec:
     spec:                     
       containers:
       - name: server-app
-        image: ${reg}/${app}:${ver}
+        image: ${SERVER_IMAGE_NAME}
         imagePullPolicy: IfNotPresent
         ports:
           - name: http
